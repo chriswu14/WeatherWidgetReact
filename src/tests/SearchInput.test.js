@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchInput from '../components/SearchInput';
 import renderer from 'react-test-renderer';
-import { shallow, configure } from 'enzyme';
+import { mount, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
@@ -15,7 +15,7 @@ describe('SearchInput: ', () => {
     it('calls props handler with input value method after click', () => {
         const value = 'Sydney';
         const onClick = jest.fn();   
-        const searchInputWrapper = shallow(<SearchInput _getWeather={onClick} _getPicture={onClick} />);
+        const searchInputWrapper = mount(<SearchInput _getWeather={onClick} _getPicture={onClick} />);
         const input = searchInputWrapper.find('input');
         const button = searchInputWrapper.find('button');
 
