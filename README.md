@@ -10,6 +10,6 @@ Using google place api to get city photo
 
 yarn install
 
-yarn start
+yarn start (localhost:1234)
 
 yarn test
