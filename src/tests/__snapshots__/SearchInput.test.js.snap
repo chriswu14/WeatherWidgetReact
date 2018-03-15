@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchInput:  renders correctly 1`] = `
+<div
+  className="sc-bdVaJa eeTmpU"
+>
+  <input
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="Search city..."
+    type="text"
+    value=""
+  />
+  <button
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Search
+  </button>
+</div>
+`;

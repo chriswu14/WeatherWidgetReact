@@ -1,0 +1,29 @@
+html body {
+    font-family: sans-serif;
+    letter-spacing: 0.0625em;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.text-xl {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.text-lg {
+    font-size: 40px;   
+}
+
+.text-sm {
+    font-size: 12px;
+}
+
+.text-xs {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.text-align-center {
+    text-align: center;
+}
