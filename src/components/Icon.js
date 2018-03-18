@@ -1,10 +1,15 @@
 import React from 'react'
+import styled from 'styled-components';
 
-const YahooConditionIcon = props => {
+const Icon = props => {
     let iconClass = 'wi wi-yahoo-' + props.conditionCode;
     return (
-        <i className={iconClass}>
-        </i>
+        <IconWrapper className={iconClass}>
+        </IconWrapper>
     );
 };
-export default YahooConditionIcon;
+export default Icon;
+
+const IconWrapper = styled.i`
+    margin-right: 10px;
+`;

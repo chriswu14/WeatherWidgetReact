@@ -5,7 +5,7 @@ import Temperature from '../components/Temperature';
 import SearchInput from '../components/SearchInput';
 import Grid from '../components/Grid';
 import GridItem from '../components/GridItem';
-import YahooConditionIcon from '../components/Icon';
+import Icon from '../components/Icon';
 import Wrapper from '../components/Wrapper';
 import ForcastItem from '../components/ForecastItem';
 import { fetchWeather } from '../api/weather';
@@ -84,7 +84,7 @@ export default class WeatherWidgetContainer extends Component {
                                 </GridItem>
                                 <GridItem alignSelf="center">
                                     <div className="text-xl">
-                                        <YahooConditionIcon conditionCode={this.state.code}/>
+                                        <Icon conditionCode={this.state.code}/>
                                         {this.state.degree ? <Temperature degree={this.state.degree} /> : ''}
                                     </div>
                                     <div className="text-align-center">
