@@ -6,7 +6,9 @@ Connecting to Yahoo weather API to get weather from city
 
 Using google place api to get city photo
 
-# Run the app
+# Run the app(used parcel for bundling)
+
+yarn global add parcel-bundler 
 
 yarn install
 
